@@ -9,7 +9,7 @@
   var idade = ler("Digite o ano em que você nasceu: ");
   var sexo = ler("Digite M ou F para o seu sexo: ");
 
-  var resultado = (((2021 - idade) >= 21) || (sexo == "M") );
+  var resultado = (((2021 - idade) >= 21) || ((sexo == "M")&&((2021 - idade) >= 18 )));
 
   console.log("Sexo: " + sexo + "\nAno de nascimento: " + idade +
    "\nCidadão emancipado? " + resultado);
